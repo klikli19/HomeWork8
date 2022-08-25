@@ -24,7 +24,7 @@ public class Main {
         System.out.println(Arrays.toString(arr) +"\n");
 
         System.out.println("Задание 5");
-        String abc = "asaadgh";
+        String abc = "asaaddgh";
         searchDuplicates(abc);
 
     }
@@ -90,7 +90,7 @@ public class Main {
         for (int i = 0; i < abc.length(); i++) {
             for (int j = i + 1; j < abc1.length; j++) {
                 if (abc1[i] == abc1[j]) {
-                    System.out.println("Найден дубль ");
+                    System.out.println("Найден дубль - " + abc1[j]);
                     return;
                 }
             }
